@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: powderblue;
+  font-family: Helvetica, Times, Tahoma, sans-serif;
+}
+
+.main {/*letras adentro del cuadro mas grande*/
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: seagreen;
+}
+
+.titulo { /* color del titulo: Codigo seccreto*/
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  color: peru;/*indianred*/;
+
+}
+
+.box { /* cuadro donde esta lo de encriptar y desencriptar y el mensaje recibido*/
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgb(32, 178, 170);/*sombra del cuadro*/
+  background-color: darkseagreen;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn { /* los botones*/
+  border: 0;
+  color: lightskyblue; /*letra*/
+  font-weight: bold;
+  background-color: lightcyan;/*fondo del boton*/
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgb(154, 205, 50);/*alrededor del ingrse el texto*/
+  display: block;
+  padding: 0.9em;
+  width: 100%;
+  height: 50px;
+}
+
+
+footer{
+  width: 100%;
+  height: 5%;
+  background: palegreen;
+  color: steelblue;
+}
+
+.container-footer-all{
+  width: 100%;
+  max-width: 900px;
+}
+
+.container-body{
+  display: flex;
+}
+
+.colum1{
+  max-width: 400px;
+}
+
+.colum1 h1{
+  font-size: 22px;
+}
+
+.colum1 p{
+  font-size: 14px;
+  color: mediumvioletred;
+  margin-top: 20px;
+
+}
+
+.colum2{
+      /*las imágenes usadas tienen width de 48px*/
+      width:48px;
+      position:fixed;
+      top:50px;
+      right:0;
+    }
+
+    /* Extra centrado vertical*/
+
+.colum2{
+      /*border:1px solid #000;*/
+      top:50%;
+      height:205px;
+      /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+      margin-top:-100px;
+    }
+
+
+.colum3{
+  max-width: 600px;/*400*/
+}
+
+.colum3 h1{
+  font-size: 22px;
+}
+
+.colum3 p{
+  font-size: 14px;/*14*/
+  color: mediumvioletred;
+  margin-top: 1px;/*1*/
+
+}
+
+#dos{
+    position: relative;
+    top:-70px;
+    right:-450px;
+  }
+
+.container-footer{
+  max-width: 4000px;
+}
+
+.container-footer p{
+  font-size: 10px;
+  color: mediumvioletred;
+  margin-top: 25px;
+  }
+
+#uno{
+    position: relative;
+    top:-80px;
+    right:-900px;
+  }
